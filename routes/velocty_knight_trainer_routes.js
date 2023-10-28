@@ -29,7 +29,7 @@ velocity_knight_trainer_routes.get('/velocity_knight_trainer', async (req, res, 
     // let coll = await get_db_connection.collection('velocity_users').find().toArray()
     res.send({
         status: 'Active',
-        response: 'The server is in a healthy state'
+        response: 'The server is in a healthy state On new Repo'
     })
 })
 
