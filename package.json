@@ -1,0 +1,46 @@
+{
+  "name": "Velocity Knight Trainer BE",
+  "version": "1.0.0",
+  "description": "(Client/static/assets/run.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithwest/react_webapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewithwest/react_webapp/issues"
+  },
+  "homepage": "https://github.com/codewithwest/react_webapp#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-plugin-wildcard": "^7.0.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@rama41222/node-logger": "^1.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21",
+    "path": "^0.12.7"
+  },
+  "type": "module"
+}
